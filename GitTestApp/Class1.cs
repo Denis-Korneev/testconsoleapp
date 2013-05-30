@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace GitTestApp
 {
-    class Program
+    public class Class1
     {
-        static void Main(string[] args)
+        private int xxx;
+        public Class1(int x = 0)
         {
-            Class1 c1 = new Class1(1);
+            xxx = x;
+        }
+
+        public int X
+        {
+            get { return xxx; }
         }
     }
 }
